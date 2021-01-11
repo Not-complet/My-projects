@@ -5,36 +5,40 @@ body{
   margin-bottom:225px;
 }
 img{
-  margin-left: 190px;
+  margin-left: 150px;
   width:300px;
-  border-radius:60%;
+  border-radius:45%;
 }
 p {
   font-size:25px;
   padding:20px;
 }
-h1{
-  margin-left:200px;     
+h1{     
   text-shadow:2px 2px #512DA8;
 }
 h2{
   text-shadow:2px 2px #512DA8;
 }
-#title{
-    z-index:9; 
-}
+
 .menu{
     list-style: none;
     font-family: 'Dancing Script', cursive;
+    width:40%;
     float:right;
     top:10px;
     right:30px;
     cursor:pointer;
     color:#FFFFFF;
+    margin-right:30px;
     z-index:10;
 }
 .link{
-    font-size:30px;
+    border-style:solid;
+    border-color:black;
+    border-width:2px;
+    display: inline;
+    font-size:20px;
+    text-decoration: none; 
 }
 .link:hover{
     background-color:forestgreen;
