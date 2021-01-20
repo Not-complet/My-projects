@@ -1,55 +1,77 @@
-html{
+html {
     scroll-behavior: smooth;
 }
-body{
-  text-align:center;
-  background-image:linear-gradient(#42A5F5, #4CAF50, #AB47BC);
-  background-repeat:no-repeat;
-  margin-bottom:225px;
-}
-img{
-  margin-left: 150px;
-  width:300px;
-  border-radius:45%;
-}
-p {
-  font-size:25px;
-  padding:20px;
-}
-h1{     
-  text-shadow:2px 2px #512DA8;
-}
-h2{
-  text-shadow:2px 2px #512DA8;
+
+body {
+    text-align: center;
+    background-image: linear-gradient(#42A5F5, #4CAF50, #AB47BC);
+    background-repeat: no-repeat;
+    margin-bottom: 225px;
 }
 
-.menu{
+#home_image {
+    margin-left: 150px;
+    width: 300px;
+    border-radius: 45%;
+}
+
+p {
+    font-size: 20px;
+    padding: 20px;
+}
+
+h1 {
+    text-shadow: 2px 2px #512DA8;
+}
+
+h2 {
+    text-shadow: 2px 2px #512DA8;
+}
+
+.menu {
     list-style: none;
     font-family: 'Dancing Script', cursive;
-    width:40%;
-    float:right;
-    top:10px;
-    right:30px;
-    cursor:pointer;
-    color:#FFFFFF;
-    margin-right:30px;
-    z-index:10;
+    width: 40%;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: #FFFFFF;
+    margin-right: 30px;
+    z-index: 10;
 }
-.link{
-    border-style:solid;
-    border-color:black;
-    border-width:2px;
+
+.link {
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
     display: inline;
-    font-size:20px;
-    text-decoration: none; 
+    font-size: 20px;
+    text-decoration: none;
 }
-.link:hover{
-    background-color:forestgreen;
+
+.link:hover {
+    background-color: forestgreen;
 }
-a{
+
+a {
     color: dodgerblue;
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     color: fuchsia;
+}
+
+#dev {
+    transition: transform .2s;
+    height: 350px;
+    width: 350px;
+    border-radius: 50px;
+    border-width: 5px;
+}
+
+#dev:hover {
+    transform: scale (0.9);
 }
