@@ -10,7 +10,7 @@ body {
 }
 
 #home_image {
-    margin-left: 150px;
+    margin-top: 50px;
     width: 300px;
     border-radius: 45%;
 }
@@ -29,12 +29,12 @@ h2 {
 }
 
 .menu {
+    position: fixed;
     list-style: none;
+    background: white;
     font-family: 'Dancing Script', cursive;
-    width: 40%;
+    width: 100%;
     float: right;
-    top: 10px;
-    right: 30px;
     cursor: pointer;
     color: #FFFFFF;
     margin-right: 30px;
@@ -42,17 +42,18 @@ h2 {
 }
 
 .link {
-    color: white;
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
+    color: white !important;
     display: inline;
-    font-size: 20px;
+    font-size: 25px;
     text-decoration: none;
+    padding-left: 25px;
+    padding-right: 25px;
+
 }
 
 .link:hover {
-    background-color: forestgreen;
+    background-color: crimson;
+    font-size: 30px;
 }
 
 a {
@@ -74,4 +75,8 @@ a:hover {
 
 #dev:hover {
     transform: scale (0.9);
+}
+
+#contact iframe {
+    width: 100%;
 }
