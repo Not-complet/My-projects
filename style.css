@@ -80,3 +80,6 @@ a:hover {
 #contact iframe {
     width: 100%;
 }
+#myname, #myname2{
+    font-size:25px;
+}
