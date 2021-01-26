@@ -1,66 +1,91 @@
+<!DOCTYPE html>
 <html>
 
 <head>
-    <title> My Favorite Hobby</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <ul class="menu">
-        <li class="link"><a href="#title">Home</a></li>
-        <li class="link"><a href="#reviews">Other People's Thoughts</a></li>
-        <li class="link"><a href="#reccomend">My Reccomended Games</a></li>
-        <li class="link"><a href="#insparation">Insparation</a></li>
-        <li class="link"><a href="#contact">Contact</a></li>
-    </ul>
-    <section id="title">
-        <img id="home_image" src="https://www.gannett-cdn.com/-mm-/b2b05a4ab25f4fca0316459e1c7404c537a89702/c=0-0-1365-768/local/-/media/2018/08/30/USATODAY/usatsports/video-game-controller.jpg?width=1365&height=682&fit=crop&format=pjpg&auto=webp">
-        <h1> My Favorite Hobby is<br> Video Games</h1>
-        <h2> This is why: </h2>
-    </section>
-    <section id="para">
-        <p> One reason I video games is how video games can take you any while your still in control. For example, games like Cyberpunk 2077 and Overwatch can take you decades into the future where the technology is very advanced. Another reason is how video games can help you in the real world. As an example, recent research says that video games can help you see better, learn more quickly, and develop greater mental focus. And that's just the start of it. </p>
-    </section>
-    <section id="reviews">
-        <h1>Other People's Thoughts</h1>
-        <div class="line"></div>
-        <br>
-        <iframe height="700" width="900" src="https://www.pewresearch.org/internet/2015/12/15/attitudes-about-video-games/"></iframe>
-    </section>
-    <section id="reccomend">
-        <h1>Games I Would Reccomend </h1>
-        <br>
-        <a href="https://www.ign.com/articles/2018/06/22/hollow-knight-review" target="_blank">Hollow Knight Genre: RPG/Metroidvania </a>
-        <br>
-        <a href="https://www.ign.com/articles/overwatch-review-2020-update" target="_blank">Overwatch Genre: Class-based team shooter (Has a pretty hefty price though at $40-$60)</a>
-        <br>
-        <a href="https://www.ign.com/articles/spellbreak-review" target="_blank">Spellbreak Genre:3rd person Battle Royale (Free game, all you need is gaming platform and an email)</a>
-        <br>
-        <a href="https://play.google.com/store/apps/details?id=air.com.ubisoft.brawl.halla.platform.fighting.action.pvp&hl=en_US&gl=US" target="_blank">Brawlhalla Genre: Platform Fighter(Free game, all you need is gaming platform and an email)</a>
-    </section>
-    <section id="insparation">
-        <h1>Insparation/Favorite Game Developer</h1>
-        <img id="dev" src="https://s3.amazonaws.com/prod-media.gameinformer.com/styles/body_default/s3/2018/10/15/d664d9dc/Ari%20and%20Will.jpg">
-        <p>Ari Gibson(left) and William Pellan(right) are the creators of one of my favorite games Hollow Knight. The reason why I put them here is because of how polished their game was and how they think of quality over quantity. Their company, Team Cherry, has only one game and it's one of the best metroidvania games in the world! </p>
-        <a href="https://teamcherry.com.au/about/" target="_blank">More on Team Cherry and their developers</a>
-    </section>
-    <br>
-    <br>
-    <section id="contact">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d91393.711066393!2d-122.41255358185819!3d37.78973083268646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808581cd937d0587%3A0x8894786d394e811f!2sWhitehat%20Education%20Technology%20Pte%20Ltd!5e0!3m2!1sen!2sus!4v1611279835002!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        <div class="contact1">
-            <a href="mailto:Miggy28612@gmail.com?Subject=Hello">
-                <i class="fa fa-envelope">&nbsp;<span id="myname">Miggy28612@gmail.com</span></i>
-            </a>
-            <br>
-            <br>
-            <a href="#">
-                <i class="fa fa-instagram">&nbsp;<span id="myname2">@myinstagramid</span></i>
-            </a>
+    <h1>Popular Games</h1>
+    <h3>Grid</h3>
+    <div id="grid">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/510KWdgceEL.jpg">
+        <img src="https://image-cdn.essentiallysports.com/wp-content/uploads/20200617190129/fortnite-season-3-battle-pass-skins.jpg">
+        <img src="https://i2.wp.com/www.techdigest.tv/wp-content/uploads/2020/09/league-of-legends.jpg?ssl=1">
+        <img src="https://cdn2.unrealengine.com/egs-amongus-innersloth-s1-2560x1440-675403774.jpg?h=1080&resize=1&w=1920">
+        <img src="https://i.ytimg.com/vi/tmWwGP5mROg/maxresdefault.jpg">
+        <img src="https://www.nintendo.com/content/dam/noa/en_US/games/switch/m/mario-kart-8-deluxe-switch/mario-kart-8-deluxe-switch-hero.jpg">
+        <img src="https://bnetcmsus-a.akamaihd.net/cms/blog_thumbnail/u9/U9OR9LSH8R7U1590775227064.png">
+        <img src="https://www.nintendo.com/content/dam/noa/en_CA/games/switch/t/the-legend-of-zelda-breath-of-the-wild-switch/the-legend-of-zelda-breath-of-the-wild-switch-hero.jpg">
+    </div>
+    <div id="carousel" class="carousel-slide">
+        <div class="carousel-inner">
+            <div class="item-active">
+                <a href="https://www.minecraft.net/en-us/"><img src="https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png" class="img-responsive"></a>
+                <div class="carousel-content">
+                    <p>Minecraft</p>
+                </div>
+            </div>
+            <div class="item">
+                <a href="https://www.epicgames.com/fortnite/en-US/home"><img src="https://store-images.s-microsoft.com/image/apps.39723.70702278257994163.958bb3bc-e151-4401-a360-075b4cb46da9.85b8ec28-bfa4-4a95-9e7a-156869284a19" class="img-responsive"></a>
+                <div class="carousel-content">
+                    <p>Fortnite</p>
+                </div>
+            </div>
+            <div class="item">
+                <a href="https://na.leagueoflegends.com/en-us/"><img src="https://static-cdn.jtvnw.net/ttv-boxart/League%20of%20Legends.jpg" class="img-responsive"></a>
+                <div class="carousel-content">
+                    <p>League of Legends</p>
+                </div>
+            </div>
+            <div class="item">
+                <a href="https://innersloth.com/gameAmongUs.php"><img src="https://pbs.twimg.com/profile_images/1339956150339575809/Asbwwo5e.jpg" class="img-responsive"></a>
+                <div class="carousel-content">
+                    <p>Among us</p>
+                </div>
+            </div>
+            <div class="item">
+                <a href="https://fallguys.com/"><img src="https://upload.wikimedia.org/wikipedia/en/5/5e/Fall_Guys_cover.jpg"></a>
+                <div class="carousel-content">
+                    <p>Fall Guys</p>
+                </div>
+            </div>
+            <div class="item">
+                <a href="https://mariokart8.nintendo.com/"><img src="https://s3.gaming-cdn.com/images/products/2615/orig/mario-kart-8-deluxe-switch-cover.jpg"></a>
+                <div class="carousel-content">
+                    <p>Mario Kart 8 Deluxe</p>
+                </div>
+            </div>
+            <div class="item">
+                <a href="https://playoverwatch.com/en-us/"><img src="https://upload.wikimedia.org/wikipedia/en/5/51/Overwatch_cover_art.jpg"></a>
+                <div class="carousel-content">
+                    <p>Overwatch</p>
+                </div>
+            </div>
+            <div class="item">
+                <a href="https://www.zelda.com/breath-of-the-wild/"><img src="https://assets1.ignimgs.com/2019/06/04/legend-of-zelda-breath-of-the-wild---button-1559683061451.jpg"></a>
+                <div class="carousel-content">
+                    <p>Legend of Zelda: Breath of the Wild</p>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#carousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
+            <a class="right carousel-control" href="#carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+            <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+                <li data-target="#carousel" data-slide-to="3"></li>
+                <li data-target="#carousel" data-slide-to="4"></li>
+                <li data-target="#carousel" data-slide-to="5"></li>
+                <li data-target="#carousel" data-slide-to="6"></li>
+                <li data-target="#carousel" data-slide-to="7"></li>
+            </ol>
         </div>
-    </section>
-</body>
-
-</html>
+    </div>
+</body></html>
