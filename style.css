@@ -12,10 +12,10 @@ img {
     flex-wrap: wrap;
     justify-content: center;
 }
-#carousel{
+#Carousel{
     background-color: cornflowerblue;
 }
-#carousel img{
+#Carousel img{
     height: 300px !important;
     margin-top: 35px;
     width: 200px !important;
@@ -24,7 +24,12 @@ img {
 }
 .carousel-inner p {
     margin-bottom:15px;
-    margin-top: 30px;
     color: white;
     font-size:20px;
+}
+.carousel-indicators{
+    margin-top: 50px;
+}
+h1{
+    font-weight: bold;
 }
