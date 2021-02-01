@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body {
     text-align: center;
 }
@@ -32,4 +35,21 @@ img {
 }
 h1{
     font-weight: bold;
+}
+#menu{
+    list-style-type: none;
+    width:60px;
+    position: fixed;
+}
+li{
+    margin-right:25px; 
+    display: inline;
+    float: right;
+    font-size:24px;
+}
+#title{
+    margin-right:100px;
+}
+li:hover{
+    color:magenta;
 }

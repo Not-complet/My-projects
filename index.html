@@ -9,12 +9,19 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <div class="container">
-        <h1>Popular Games</h1>
+        <ul class="menu">
+            <li class="links"><a href="#contact">Contact</a></li>
+            <li class="links"><a href="#slide_sec">Slide</a></li>
+            <li class="links"><a href="#grid_sec">Grid</a></li>
+        </ul>
+        <h1 id="title">Popular Games</h1>
         <h3>Grid</h3>
+        <section id="grid_sec">
         <div id="grid">
             <img src="https://images-na.ssl-images-amazon.com/images/I/510KWdgceEL.jpg">
             <img src="https://image-cdn.essentiallysports.com/wp-content/uploads/20200617190129/fortnite-season-3-battle-pass-skins.jpg">
@@ -25,70 +32,89 @@
             <img src="https://bnetcmsus-a.akamaihd.net/cms/blog_thumbnail/u9/U9OR9LSH8R7U1590775227064.png">
             <img src="https://www.nintendo.com/content/dam/noa/en_CA/games/switch/t/the-legend-of-zelda-breath-of-the-wild-switch/the-legend-of-zelda-breath-of-the-wild-switch-hero.jpg">
         </div>
+            </section>
         <h1>Slide</h1>
-        <div id="Carousel" class="carousel slide">
-            <div class="carousel-inner">
-                <div class="item active">
-                    <a href="https://www.minecraft.net/en-us/" target="_blank"><img src="Minecraft_cover.png"></a>
-                    <div class="carousel-content">
-                        <p>Minecraft</p>
+        <section id="slide_sec">
+            <div id="Carousel" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <a href="https://www.minecraft.net/en-us/" target="_blank"><img src="Minecraft_cover.png"></a>
+                        <div class="carousel-content">
+                            <p>Minecraft</p>
+                        </div>
                     </div>
-                </div>
-                <div class="item">
-                    <a href="https://www.epicgames.com/fortnite/en-US/home" target="_blank"><img src="Fortnite.jpg" class="img-responsive"></a>
-                    <div class="carousel-content">
-                        <p>Fortnite</p>
+                    <div class="item">
+                        <a href="https://www.epicgames.com/fortnite/en-US/home" target="_blank"><img src="Fortnite.jpg" class="img-responsive"></a>
+                        <div class="carousel-content">
+                            <p>Fortnite</p>
+                        </div>
                     </div>
-                </div>
-                <div class="item">
-                    <a href="https://na.leagueoflegends.com/en-us/" target="_blank"><img src="League.jpg" class="img-responsive"></a>
-                    <div class="carousel-content">
-                        <p>League of Legends</p>
+                    <div class="item">
+                        <a href="https://na.leagueoflegends.com/en-us/" target="_blank"><img src="League.jpg" class="img-responsive"></a>
+                        <div class="carousel-content">
+                            <p>League of Legends</p>
+                        </div>
                     </div>
-                </div>
-                <div class="item">
-                    <a href="https://innersloth.com/gameAmongUs.php" target="_blank"><img src="Among_us.jpg"></a>
-                    <div class="carousel-content">
-                        <p>Among us</p>
+                    <div class="item">
+                        <a href="https://innersloth.com/gameAmongUs.php" target="_blank"><img src="Among_us.jpg"></a>
+                        <div class="carousel-content">
+                            <p>Among us</p>
+                        </div>
                     </div>
-                </div>
-                <div class="item">
-                    <a href="https://fallguys.com/" target="_blank"><img src="Fall_Guys_cover.jpg"></a>
-                    <div class="carousel-content">
-                        <p>Fall Guys</p>
+                    <div class="item">
+                        <a href="https://fallguys.com/" target="_blank"><img src="Fall_Guys_cover.jpg"></a>
+                        <div class="carousel-content">
+                            <p>Fall Guys</p>
+                        </div>
                     </div>
-                </div>
-                <div class="item">
-                    <a href="https://mariokart8.nintendo.com/" target="_blank"><img src="MarioKart8Boxart.jpg"></a>
-                    <div class="carousel-content">
-                        <p>Mario Kart 8 Deluxe</p>
+                    <div class="item">
+                        <a href="https://mariokart8.nintendo.com/" target="_blank"><img src="MarioKart8Boxart.jpg"></a>
+                        <div class="carousel-content">
+                            <p>Mario Kart 8 Deluxe</p>
+                        </div>
                     </div>
-                </div>
-                <div class="item">
-                    <a href="https://playoverwatch.com/en-us/" target="_blank"><img src="overwatch-cover.webp"></a>
-                    <div class="carousel-content">
-                        <p>Overwatch</p>
+                    <div class="item">
+                        <a href="https://playoverwatch.com/en-us/" target="_blank"><img src="overwatch-cover.webp"></a>
+                        <div class="carousel-content">
+                            <p>Overwatch</p>
+                        </div>
                     </div>
-                </div>
-                <div class="item">
-                    <a href="https://www.zelda.com/breath-of-the-wild/" target="_blank"><img src="The_Legend_of_Zelda_Breath_of_the_Wild.jpg"></a>
-                    <div class="carousel-content">
-                        <p>Legend of Zelda: Breath of the Wild</p>
+                    <div class="item">
+                        <a href="https://www.zelda.com/breath-of-the-wild/" target="_blank"><img src="The_Legend_of_Zelda_Breath_of_the_Wild.jpg"></a>
+                        <div class="carousel-content">
+                            <p>Legend of Zelda: Breath of the Wild</p>
+                        </div>
                     </div>
+                    <a class="left carousel-control" href="#Carousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
+                    <a class="right carousel-control" href="#Carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                    <ol class="carousel-indicators">
+                        <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#Carousel" data-slide-to="1"></li>
+                        <li data-target="#Carousel" data-slide-to="2"></li>
+                        <li data-target="#Carousel" data-slide-to="3"></li>
+                        <li data-target="#Carousel" data-slide-to="4"></li>
+                        <li data-target="#Carousel" data-slide-to="5"></li>
+                        <li data-target="#Carousel" data-slide-to="6"></li>
+                        <li data-target="#Carousel" data-slide-to="7"></li>
+                    </ol>
                 </div>
-                <a class="left carousel-control" href="#Carousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
-                <a class="right carousel-control" href="#Carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-                <ol class="carousel-indicators">
-                    <li data-target="#Carousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#Carousel" data-slide-to="1"></li>
-                    <li data-target="#Carousel" data-slide-to="2"></li>
-                    <li data-target="#Carousel" data-slide-to="3"></li>
-                    <li data-target="#Carousel" data-slide-to="4"></li>
-                    <li data-target="#Carousel" data-slide-to="5"></li>
-                    <li data-target="#Carousel" data-slide-to="6"></li>
-                    <li data-target="#Carousel" data-slide-to="7"></li>
-                </ol>
             </div>
-        </div>
+        </section>
+        <section id="contact">
+            <h1>Contact</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.4989202416878!2d-122.40365218568621!3d37.80178121838018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808581cd937d0587%3A0x8894786d394e811f!2sWhitehat%20Education%20Technology%20Pte%20Ltd!5e0!3m2!1sen!2sus!4v1612142432819!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <br>
+            <a href="mailto:Miggy28612@gmail.com?Subject=Hello">
+                <i class="fa fa-envelope">&nbsp;<span id="myname">Miggy28612@gmail.com</span></i>
+            </a>
+            <br>
+            <br>
+            <a href="#">
+                <i class="fa fa-instagram">&nbsp;<span id="myname2">@myinstagramid</span></i>
+            </a>
+        </section>
     </div>
-</body></html>
+
+</body>
+
+</html>
